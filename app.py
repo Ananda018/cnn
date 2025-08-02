@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model
-model = load_model("my_final_model.h5")
+model = load_model("my_final_model.keras")
 
 # Your class names
 class_names = ['Normal OCT', 'Sharp Peaked PED']
